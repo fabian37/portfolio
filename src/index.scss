@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+:root {
+	--black: #0a192f;
+	--purple: #9722f6;
+	--slate: #8892b0;
+	--light-slate: #a8b2d1;
+	--lightest-slate: #ccd6f6;
+	--shadow: rgba(2, 12, 27, 0.7);
+	--font-sans: 'Poppins', sans-serif;
+	--font-mono: monospace;
+	--fz-xxs: 12px;
+	--fz-xs: 13px;
+	--fz-sm: 14px;
+	--fz-md: 16px;
+	--fz-lg: 18px;
+	--fz-xl: 20px;
+	--fz-xxl: 22px;
+	--fz-heading: 32px;
+	--border-radius: 6px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	vertical-align: baseline;
+}
+
+img,
+picture,
+video,
+iframe,
+figure {
+	max-width: 100%;
+	width: 100%;
+	display: block;
+	-o-object-fit: cover;
+	object-fit: cover;
+	-o-object-position: center center;
+	object-position: center center;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+	font-size: inherit;
+}
+
+p a {
+	display: inline-block;
+}
+
+li {
+	list-style-type: none;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+strong,
+blockquote,
+i,
+b,
+u,
+em {
+	font-size: 1em;
+	font-weight: inherit;
+	font-style: inherit;
+	text-decoration: none;
+	color: inherit;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+::-moz-selection {
+	background-color: var(--purple);
+	color: var(--lightest-slate);
+}
+::selection {
+	background-color: var(--purple);
+	color: var(--lightest-slate);
+}
+
+form,
+input,
+textarea,
+select,
+button,
+label {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+	background-color: transparent;
+	color: inherit;
+	display: block;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+table,
+tr,
+td {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+svg {
+	width: 100%;
+	display: block;
+	fill: currentColor;
+}
+
+body {
+	// background-color: var(--black);
+	min-height: 100vh;
+	font-size: 100%;
+	font-family: var(--font-sans);
+	color: var(--lightest-slate);
+	line-height: 1.4em;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+	font-smooth: always;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
