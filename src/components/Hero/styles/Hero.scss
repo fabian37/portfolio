@@ -1,3 +1,47 @@
-.hero{
+.hero-container {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+}
 
+.btn-container {
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+
+	&__btn-up {
+		font-size: 20px;
+		background-color: var(--container-color);
+		box-shadow: 0 10px 30px -10px var(--container-shadow);
+		color: var(--main-color);
+		width: 45px;
+		height: 45px;
+		opacity: 0.75;
+		// border: 1px solid var(--main-color);
+		border-radius: 8px;
+		cursor: pointer;
+		animation: bounce 2s infinite;
+	}
+
+	@keyframes bounce {
+		0%,
+		100% {
+			transform: translateY(-5%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+
+  @media screen and (max-width: 767px) {
+    & {
+      bottom: 1em;
+      right: 1em;
+    }
+  }
 }
