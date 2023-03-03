@@ -10,7 +10,7 @@
 	--nav-bg-color: rgba(10, 25, 47, 0.85);
 	--container-shadow: rgba(2, 12, 27, 0.7);
 	--font-sans: 'Poppins', sans-serif;
-	--font-mono: monospace;
+	--font-mono: 'Fira Mono', monospace;
 	--fz-xxs: 12px;
 	--fz-xs: 13px;
 	--fz-sm: 14px;
@@ -106,12 +106,12 @@ q:after {
 }
 
 ::-moz-selection {
-	background-color: var(--main-color);
-	color: var(--text-color);
+	background-color: var(--container-color);
+	color: var(--main-color);
 }
 ::selection {
-	background-color: var(--main-color);
-	color: var(--text-color);
+	background-color: var(--container-color);
+	color: var(--main-color);
 }
 
 form,
