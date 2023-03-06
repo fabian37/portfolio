@@ -5,13 +5,13 @@ export interface HomeProps {}
 
 const Home: React.FC<HomeProps> = () => {
 	return (
-		<div className="home">
+		<main className="home">
 			<Hero />
 			<About />
 			<Experience />
 			<Projects />
 			<Contact />
-		</div>
+		</main>
 	);
 };
 
