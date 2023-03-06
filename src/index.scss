@@ -153,10 +153,25 @@ body {
 	font-family: var(--font-sans);
 	color: var(--text-color);
 	line-height: 1.4em;
-	-webkit-hyphens: auto;
-	-ms-hyphens: auto;
-	hyphens: auto;
 	font-smooth: always;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+* {
+	scrollbar-width: 10px;
+	scrollbar-color: var(--light-text-color) transparent;
+}
+
+*::-webkit-scrollbar {
+	width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: var(--light-text-color);
+	border-radius: 1em;
 }
