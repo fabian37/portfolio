@@ -33,7 +33,7 @@ const About: React.FC<AboutProps> = () => {
 				</p>
 				<p>Here are a few technologies I've been working with recently:</p>
 				<ul className="about-info__list">
-					<li className="about-info__list-item">JavaScript (ES6+)</li>
+					<li className="about-info__list-item">JavaScript</li>
 					<li className="about-info__list-item">React.js</li>
 					<li className="about-info__list-item">TypeScript</li>
 					<li className="about-info__list-item">Sass</li>
