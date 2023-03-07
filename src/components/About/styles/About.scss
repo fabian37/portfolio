@@ -45,7 +45,7 @@
 		display: inline-block;
 
 		&::before {
-			content: '✔';
+			content: '➜';
 			margin-right: 0.5em;
 			color: var(--main-color);
 		}
@@ -60,7 +60,7 @@
 		max-width: 100%;
 		border: 1px solid var(--main-color);
 		box-shadow: 0 10px 30px -10px var(--container-shadow);
-		border-radius: var(--border-radius);
+		border-radius: 1em;
 
 		@media screen and (max-width: 768px) {
 			& {
