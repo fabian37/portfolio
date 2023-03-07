@@ -1,7 +1,25 @@
 .experience-container {
-	align-items: center;
+	align-items: start;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	height: 100vh;
+
+	&__title {
+		font-size: var(--fz-xxl);
+		font-weight: 700;
+		color: var(--title-color);
+		margin-bottom: 1em;
+		display: flex;
+		align-items: center;
+		width: 100%;
+
+		&::after {
+			content: '';
+			display: block;
+			width: 10%;
+			height: 1px;
+			margin-left: 20px;
+			background-color: var(--main-color);
+		}
+	}
 }

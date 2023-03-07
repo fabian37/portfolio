@@ -5,9 +5,11 @@
 	max-width: 62.5em;
 	gap: 2em;
 	padding-top: 100px;
+	height: 100vh;
 
 	@media screen and (max-width: 768px) {
 		flex-direction: column;
+		height: auto;
 	}
 }
 

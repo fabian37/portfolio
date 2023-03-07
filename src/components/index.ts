@@ -6,3 +6,4 @@ export * from './Projects';
 export * from './Experience';
 export * from './ThemeBtn';
 export * from './Contact';
+export * from './ExperienceCard'
