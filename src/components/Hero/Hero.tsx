@@ -7,7 +7,7 @@ const Hero: React.FC<HeroProps> = () => {
 		<>
 			<section className="hero-container" id="hero">
 				<h1 className="hero__title">
-					<span className="hero__title hero__title--code">Hi, my name is</span>
+					<span className="hero__title hero__title--code">Hi, I'm</span>
 					<span>Fabian Gomez.</span>
 					<span className="hero__title hero__title--subtitle">
 						Let's build the future.
