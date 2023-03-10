@@ -1,9 +1,8 @@
 import { About, Contact, Experience, Hero, Projects } from '@/components';
 import React from 'react';
 import './styles/Home.scss';
-export interface HomeProps {}
 
-const Home: React.FC<HomeProps> = () => {
+const Home: React.FC = () => {
 	return (
 		<main className="home">
 			<Hero />

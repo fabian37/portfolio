@@ -1,9 +1,8 @@
 import React from 'react';
 import './styles/About.scss';
 import image from '../../assets/me.jpeg';
-export interface AboutProps {}
 
-const About: React.FC<AboutProps> = () => {
+const About: React.FC = () => {
 	return (
 		<section className="about-container" id="about">
 			<div className="about-info">

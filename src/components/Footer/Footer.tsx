@@ -1,8 +1,7 @@
 import React from 'react';
 import './styles/Footer.scss';
-export interface FooterProps {}
 
-const Footer : React.FC<FooterProps> = () => {
+const Footer : React.FC = () => {
 	return <div className='footer'>Footer</div >;
 };
 
