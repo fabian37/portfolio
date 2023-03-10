@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { ThemeBtn } from '../ThemeBtn';
 import './styles/Header.scss';
-export interface HeaderProps {}
 
 const Header: React.FC = () => {
 	const [isOpen, setIsOpen] = useState<boolean>(false);

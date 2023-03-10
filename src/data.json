@@ -1,0 +1,46 @@
+{
+	"experiences": [
+		{
+			"title": "FRONTEND MENTOR at Colegio Técnico Maria Elvinia",
+			"date": "August 2022 - Present",
+			"location": "Cali, Colombia",
+			"field": "Technical education in programming, High School",
+			"goals": [
+				"Coach and mentor for over 120 students in frontend technologies such as HTML, CSS, and JavaScript.",
+				"Improved study materials and tools to ensure student learning",
+				"Increased students' interest in the course",
+				"Increased students' interest in the course"
+			]
+		},
+		{
+			"title": "CO-FOUNDER at Effort Design",
+			"date": "May 2020 - January 2023",
+			"location": "Cali, Colombia",
+			"field": "Marketing and software development, Freelancer",
+			"goals": [
+				"Increased the number of visitors to the website.",
+				"Layout and design websites that reflect the branding of the company.",
+				"Improved SEO of web pages using keywords and relevant content.",
+				"Created data-driven strategic plans focusing on customers."
+			]
+		}
+	],
+	"projects": [
+		{
+			"title": "Movie Overview Search Engine",
+			"description": "Web app built with React, styled components, Vercel and TMDB API for displaying detailed information on the latest and trending movies with features such as infinite scrolling and debounced search.",
+			"deploy": "https://fg-movies-app.vercel.app/",
+			"repository": "https://github.com/fabian37/fg-movies-app",
+			"image": "https://raw.githubusercontent.com/fabian37/portfolio/master/src/assets/movies.JPG",
+			"technologies": ["React", "styled-components", "vercel", "TMDB API"]
+		},
+		{
+			"title": "News app",
+			"description": "Web app built with React, css modules, EmailJS, Vite.JS, Vercel and news API for visualizing the most relevant and important news of the moment, full responsive web design.",
+			"deploy": "https://react-news-app-gamma.vercel.app/",
+			"repository": "https://github.com/fabian37/react-news-app",
+			"image": "https://raw.githubusercontent.com/fabian37/portfolio/master/src/assets/news.JPG",
+			"technologies": ["React", "CSS modules", "vercel", "API"]
+		}
+	]
+}

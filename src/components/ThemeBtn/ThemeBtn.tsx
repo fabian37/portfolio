@@ -1,6 +1,5 @@
 import React from 'react';
 import './styles/ThemeBtn.scss';
-export interface ThemeBtnProps {}
 
 const ThemeBtn: React.FC = () => {
 	const handlerTheme = () => {

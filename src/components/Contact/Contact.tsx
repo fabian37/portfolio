@@ -1,8 +1,7 @@
 import React from 'react';
 import './styles/Contact.scss';
-export interface ContactProps {}
 
-const Contact: React.FC<ContactProps> = () => {
+const Contact: React.FC = () => {
 	return (
 		<section className="contact-container" id="contact">
 			Contact
