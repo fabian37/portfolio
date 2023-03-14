@@ -2,9 +2,11 @@
 
 Hi there!
 
-Junior React.js Developer. I've had the opportunity to teach programming to over 120 students, and I was a
+I'm Fabian, a React.js Developer. I've had the opportunity to teach programming to over 120 students, and I was a
 co-founder of a company in the field of marketing and web design with WordPress. I love being able to
 combine my technical skills with creativity and design in my projects.
+
+Hope you enjoy the tour of my portfolio.
 
 ## How to start the project?
 
