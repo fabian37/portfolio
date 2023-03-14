@@ -5,6 +5,10 @@
 	justify-content: center;
 	width: 100%;
 
+	&:nth-child(odd) {
+		flex-direction: row-reverse;
+	}
+
 	.project {
 		width: 50%;
 		margin: 1em 0;
@@ -79,6 +83,10 @@
 			.project,
 			.project-image {
 				width: 100%;
+			}
+
+			&:nth-child(odd) {
+				flex-direction: column;
 			}
 		}
 	}
