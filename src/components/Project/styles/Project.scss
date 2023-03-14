@@ -30,6 +30,7 @@
 
 		&__technologies {
 			display: flex;
+			flex-wrap: wrap;
 			gap: 1em;
 			color: var(--light-text-color);
 			font-family: var(--font-mono);
