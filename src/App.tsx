@@ -4,7 +4,7 @@ import { Home } from './pages';
 import { useEffect, useState } from 'react';
 
 function App() {
-	const [loading, setLoading] = useState(true);
+	const [loading, setLoading] = useState<boolean>(true);
 	useEffect(() => {
 		setTimeout(() => {
 			setLoading(false);

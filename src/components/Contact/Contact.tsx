@@ -46,14 +46,14 @@ const Contact: React.FC = () => {
 		} else {
 			emailjs
 				.send(
-					import.meta.env.VITE_SERVICE_ID,
-					import.meta.env.VITE_TEMPLATE_ID,
+					'service_6gpsp38',
+					'template_qodp8zc',
 					{
 						name: values.name,
 						email: values.email,
 						message: values.message,
 					},
-					import.meta.env.VITE_PUBLIC_KEY
+					'3_LWEqlk8JG3sWKoH'
 				)
 				.then((response) => {
 					console.log(response);
