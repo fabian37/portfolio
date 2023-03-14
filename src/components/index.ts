@@ -5,6 +5,7 @@ export * from './ExperienceCard';
 export * from './Footer';
 export * from './Header';
 export * from './Hero';
+export * from './Loader';
 export * from './Project';
 export * from './Projects';
 export * from './ThemeBtn';
